@@ -14,3 +14,4 @@ const mapDispatchToProps = dispatch => ({
 const connection = connect(mapStateToProps, mapDispatchToProps);
 const PokemonIndexContainer = connection(PokemonIndex);
 export default PokemonIndexContainer;
+
